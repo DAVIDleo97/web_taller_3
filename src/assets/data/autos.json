@@ -1,0 +1,46 @@
+{
+  "Autos": [
+    {
+      "id": "1",
+      "Marca": "Chevrolet",
+      "Modelo": "Camaro",
+      "Anio": "2009",
+      "Color": "Rojo"
+    },
+    {
+      "id": "2",
+      "Marca": "Toyota",
+      "Modelo": "Supra",
+      "Anio": "1999",
+      "Color": "Negro"
+    },
+    {
+      "id": "3",
+      "Marca": "Kia",
+      "Modelo": "Rio",
+      "Anio": "2015",
+      "Color": "Blanco"
+    },
+    {
+      "id": "4",
+      "Marca": "Mitsubishi",
+      "Modelo": "Lancer",
+      "Anio": "2020",
+      "Color": "Gris"
+    },
+    {
+      "id": "5",
+      "Marca": "Ford",
+      "Modelo": "Muastang",
+      "Anio": "2002",
+      "Color": "Azul"
+    },
+    {
+      "id": "6",
+      "Marca": "VolksWagen",
+      "Modelo": "Jetta",
+      "Anio": "2020",
+      "Color": "Negro"
+    }
+  ]
+}

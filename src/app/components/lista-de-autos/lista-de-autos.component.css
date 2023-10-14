@@ -1,0 +1,10 @@
+#titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:aquamarine;
+    border-radius: 20px;
+}
+.boton{
+    margin: 20px;
+    text-align: right;
+}

@@ -1,0 +1,40 @@
+<div class="boton">
+    <button class="btn btn-danger" (click)="cerrar()">Cerrar sesion</button>
+  </div>
+<div class="container">
+    <br>
+    <h2 id="titulo">Formulario de Auto</h2>
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <form action="">
+                <label for="">Id:</label><br>
+                <input type="text" #id><br>
+                <label for="">Marca:</label><br>
+                <input type="text" #marca><br>
+                <label for="">Modelo:</label><br>
+                <input type="text" #modelo><br>
+                <label for="">Año</label><br>
+                <input type="text" #anio><br>
+                <label for="">Color:</label><br>
+                <input type="text" #color><br><br>
+
+                
+            </form>
+        </div>
+        <div class="col-md-6 text-center"><br><br>
+            <button class="btn btn-success"
+            (click)="guardarAutos(id.value, marca.value, modelo.value, anio.value, color.value)">
+                Agregar
+            </button><br><hr>
+            <button class="btn btn-success"
+            (click)="actualizarAutos(id.value, marca.value, modelo.value, anio.value, color.value)">
+                Actualizar
+            </button><br><hr>
+            <button class="btn btn-success"
+            (click)="eliminarAutos(id.value)"
+            onclick="refrescar()">
+                Eliminar
+            </button><br>
+        </div>
+    </div>
+</div>
